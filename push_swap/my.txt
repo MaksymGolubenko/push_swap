@@ -1,0 +1,24 @@
+push_swap/
+│
+├── push_swap.h
+│
+├── main.c
+│
+├── parsing/
+│   ├── init_stack.c
+│   ├── check_input.c
+│
+├── stack/
+│   ├── create_node.c
+│   ├── add_back.c
+│
+├── operations/
+│   ├── swap.c
+│   ├── push.c
+│   ├── rotate.c
+│   ├── reverse_rotate.c
+│
+├── algorithm/
+│   ├── sort_3.c
+│   ├── sort_5.c
+│   ├── radix.c

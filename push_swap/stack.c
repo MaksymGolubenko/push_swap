@@ -1,4 +1,4 @@
-/* ************************************************************************** */
+ /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   push_swap_utils.c                                  :+:      :+:    :+:   */
@@ -26,7 +26,18 @@ t_node	*create_node(int value)
 	return (new_node);
 }
 
-void	add_back(t_node **stack, t_node **new_node)
+void	add_back(t_node **stack, t_node *new_node)
 {
-	
+	t_node	*current;
+
+	if (*stack == NULL)
+		*stack = new_node;
+	else
+	{
+		current = *stack;
+		while (current->next != NULL)
+			current = current->next;
+		current->next = new_node;
+		new_node->prev = current;		
+	}
 }
