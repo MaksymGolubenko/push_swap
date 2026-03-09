@@ -6,7 +6,7 @@
 /*   By: magolube <magolube@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/18 17:23:10 by magolube          #+#    #+#             */
-/*   Updated: 2026/03/05 18:35:45 by magolube         ###   ########.fr       */
+/*   Updated: 2026/03/09 16:57:44 by magolube         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define PUSH_SWAP_H
 
 # include "libft/libft.h"
+# include <limits.h>
 
 typedef struct s_node
 {
